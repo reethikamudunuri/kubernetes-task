@@ -4,7 +4,7 @@ class Pod(object):
     
     def __init__(self,name,images,label):
         self.name=name
-        self.images=imaages
+        self.images=images
         self.label=label
         config.load_kube_config()
         v1 = client.CoreV1Api()
