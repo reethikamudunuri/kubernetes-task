@@ -18,5 +18,4 @@ class Pod(object):
         
      
     
-pod=Pod(name,images,label)
-pods = pod.get_images()
+Pod()
