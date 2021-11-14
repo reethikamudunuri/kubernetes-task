@@ -10,4 +10,11 @@ class Pod(object):
         v1 = client.CoreV1Api()
         self.pods = v1.list_pod_for_all_namespaces(watch=False)
         
+    def get_images(self,pod):
+        images=[]
+        for i in self.pods.items:
+            images.append(i)
+            return images
+        
      
+    
