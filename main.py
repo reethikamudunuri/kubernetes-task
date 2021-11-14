@@ -1,4 +1,4 @@
-from kubernetes-task import Pod
+from kuberntes-task import Pod
 
 def main():
   pod=Pod()
